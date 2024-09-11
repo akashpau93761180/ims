@@ -1,22 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 import Button from '@mui/material/Button';
 
-function Letsseereactbutton(){
-  return <Button variant="contained" color="primary">
-  MUI Button
-</Button>
-}
+
+function Loginui(){
+    return <h1>Login Page</h1>
+  }
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Letsseereactbutton />
+    <Loginui />
   </React.StrictMode>
 );
-
-reportWebVitals();

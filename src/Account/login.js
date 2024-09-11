@@ -18,12 +18,12 @@ const SignInContainer = styled(Stack)(({ theme }) => ({
     height: '100vh', // Make the container take full viewport height
     width: '100vw',  // Make the container take full viewport width
     padding: 20,
-    backgroundImage: `url('https://github.com/akashpau93761180/ims/blob/master/src/Images/LoginPageBG.jpg')`, // Replace with your image path
+    backgroundImage: `url('https://img.freepik.com/free-photo/retail-storehouse-employees-checking-clipboard-with-orders-list-storage-room-warehouse-supervisor-explaining-goods-inventory-system-asian-man-package-handler-crutches_482257-71311.jpg?t=st=1726058781~exp=1726062381~hmac=ff56360afb3dd9d88cbbf580b9405c1ddc72235c3ab089434d9a78dd4780b911&w=996')`, // Replace with your image path
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     ...theme.applyStyles('dark', {
-      backgroundImage: `url('https://github.com/akashpau93761180/ims/blob/master/src/Images/LoginPageBG.jpg')`, // Dark mode background image
+      backgroundImage: `url('https://img.freepik.com/free-photo/retail-storehouse-employees-checking-clipboard-with-orders-list-storage-room-warehouse-supervisor-explaining-goods-inventory-system-asian-man-package-handler-crutches_482257-71311.jpg?t=st=1726058781~exp=1726062381~hmac=ff56360afb3dd9d88cbbf580b9405c1ddc72235c3ab089434d9a78dd4780b911&w=996')`, // Dark mode background image
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }),

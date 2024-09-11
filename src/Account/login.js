@@ -69,15 +69,15 @@ export default function SignIn() {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+        email: data.get('email'),
+        password: data.get('password'),
+      });
   };
 
   
 
   return (
-    <SignInContainer> {/* Use SignInContainer to wrap your sign-in form */}
+    <SignInContainer>
     <CssBaseline />
     <Card variant="outlined">
       <Typography
@@ -130,9 +130,12 @@ export default function SignIn() {
             fullWidth
             variant="outlined"
             color={passwordError ? 'error' : 'primary'}
-            sx={{ ariaLabel: 'email' }}
+            sx={{ ariaLabel: 'password' }}
           />
         </FormControl>
+        <Button type="submit" variant="contained" color="primary">
+          Sign In
+        </Button>
       </Box>
     </Card>
   </SignInContainer>
